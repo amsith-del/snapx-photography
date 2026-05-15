@@ -389,9 +389,13 @@ font-weight: normal;
 
 .pricing-card h3{
     color: #1eaee7;
-    font-size: 35px;
+    font-size: 22px;
 
     margin: 30px 0;
+}
+.cross-text{
+    text-decoration: line-through;
+    
 }
 
 .pricing-card button{
