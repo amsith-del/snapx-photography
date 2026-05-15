@@ -159,6 +159,8 @@ justify-content: center;
 }
 .cathead h2{
 margin-top: 10px;
+font-size: 36px;
+font-weight: normal;
     
 }
 .discover-btn{
@@ -253,17 +255,22 @@ margin-top: 10px;
 }
 
 .winner-section h4{
-    color: #0d96d6;
+    color: #1eaee7;
     margin-bottom: 15px;
+    font-weight: lighter;
 }
 
-.winner-section h1{
-    font-size: 50px;
+.winner-section h2{
+    font-size: 36px;
     margin-bottom: 60px;
+    font-weight: normal;
 }
 
 .winner-section h1 span{
-    color: #0d96d6;
+    color: #1eaee7;
+}
+.winnerspan{
+    color: #1eaee7;
 }
 
 .winner-cards{
@@ -312,8 +319,104 @@ margin-top: 10px;
     border-radius: 12px;
 
     background-color: transparent;
-    color: #0d96d6;
+    color: #1eaee7;
 
     font-size: 18px;
+    font-weight: bold;
+}
+.winner-section h2{
+    margin-bottom: 30px;
+}
+.pricing-section{
+    padding: 80px;
+    text-align: center;
+}
+
+.pricing-section h4{
+    color: #1eaee7;
+    margin-bottom: 15px;
+    font-weight: lighter;
+}
+
+.pricing-section h2{
+    font-size: 36px;
+    margin-bottom: 60px;
+    font-weight: normal;
+}
+
+.pricing-section h2 span{
+    color: #1eaee7;
+}
+
+.pricing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pricing-card{
+    width: 350px;
+    padding: 40px 30px;
+
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.pricing-card img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.pricing-card h2{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.pricing-card hr{
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+}
+
+.pricing-card p{
+    color: #1eaee7;
+    margin: 15px 0;
+    font-size: 12px;
+}
+
+.disabled{
+    color: #bdbdbd !important;
+}
+
+.pricing-card h3{
+    color: #1eaee7;
+    font-size: 35px;
+
+    margin: 30px 0;
+}
+
+.pricing-card button{
+    padding: 15px 30px;
+
+    border: 2px solid #1eaee7;
+    border-radius: 10px;
+
+    background-color: transparent;
+    color: #1eaee7;
+
+    font-weight: bold;
+}
+footer{
+    background: #1eaee7;
+    padding: 35px 0;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+footer span{
     font-weight: bold;
 }
