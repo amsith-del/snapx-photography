@@ -791,3 +791,104 @@ footer{
     padding: 18px;
 }
 }
+/*--Small Mobile device --*/
+@media(max-width:480px){
+    nav ul{
+    font-size: 12px;
+}
+.hero-section{
+        height: 100vh;
+    }
+.main-content h1{
+    font-size: 22px;
+    width: 90%;
+}
+.video-btn{
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 5px;
+}
+.exp-btn{
+    padding: 10px 20px ;
+    font-size: 10px;
+}
+.content-card h2{
+          font-size: 10px;
+}
+.cathead h2{
+    font-size: 20px;
+}
+.cathead h4{
+    font-size: 10px;
+}
+.discover-btn{
+    padding: 10px 14px;
+    margin-top: 20px;
+}
+.Categories-cards{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    gap:20px;
+    align-items: center;
+}
+.Categories-card{
+    width:80%;
+}
+.winner-section h2{
+    font-size: 20px;
+   
+    font-weight: normal;
+}
+.winner-section h4{
+    
+    font-size: 10px;
+}
+.card-details h2{
+    font-size: 12px;
+}
+.card-details p{
+    font-size: 10px;
+}
+.winner-card{
+    width: 180px;
+}
+.browse-btn{
+    padding: 14px 25px;
+    border: 1.5px solid #0d96d6;
+}
+.pricing-section h4{
+    font-size: 10px;
+}
+.pricing-section h2{
+    font-size: 20px;
+}
+.pricing-card{
+    width: 180px;
+    padding: 20px 20px;
+    
+}
+.pricing-card h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.pricing-card h3 {
+    font-size: 12px;
+    font-weight: 700;
+    margin: 10px;
+}
+.pricing-card p{
+    font-size: 10px;
+    margin: 4px;
+}
+.pricing-card button{
+    padding: 10px 15px ;
+    font-size: 10px;
+    border: 1.5px solid #1eaee7;
+}
+.pricing-card img{
+ width:100%;
+    height:auto;
+    display:block;
+}
+}
