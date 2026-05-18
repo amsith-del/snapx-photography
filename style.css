@@ -31,11 +31,15 @@ nav ul{
     font-weight: bolder;
     
 }
+.signin-button:hover{
+ background: #19b5fe;
+    color: white;
+}
 .signin-button i{
     margin-right: 8px;
 }
 .hero-section{
-      height: 110vh;
+      height: 130vh;
     background: url('./images/banner-bg.jpg');
     background-size: cover;
     background-position: center;
@@ -128,15 +132,28 @@ nav ul{
 .inside {
     color:rgb(128, 128, 128);
 }
-.arrow-btn{
-width: 45px;
-height: 45px;
+.arrow-btnleft{
+width: 42px;
+height: 42px;
 background-color: #1eaee7;
 border-radius: 50%;
 border: none;
 color: white;
 align-items: center;
 justify-content: center;
+
+
+}
+.arrow-btnright{
+width: 42px;
+height: 42px;
+background-color: #1eaee7;
+border-radius: 50%;
+border: none;
+color: white;
+align-items: center;
+justify-content: center;
+
 
 }
 .Categories-section{
@@ -182,6 +199,11 @@ font-weight: normal;
     padding: 20px;
   border: 1px solid #ddd;
    border-radius: 20px;
+}
+button:hover{
+     border: 1.4px solid #1eaee7;
+    color: #1eaee7;
+    background-color: white;
 }
 .card-head{
      display: flex;
@@ -239,11 +261,12 @@ font-weight: normal;
     margin-top: -30px;
 }
 .card-content p{
- font-size: 10px;
+ font-size: 8px;
 }
 .card-content h5{
- line-height: 5px;
-    margin-bottom: 10px;
+ line-height: 12px;
+    margin-bottom: 8px;
+    font-size: 10px;
 }
 .winner-section{
     padding: 80px;
@@ -420,4 +443,351 @@ footer p{
 
 footer span{
     font-weight: bold;
+}
+/* --1200px Medium Laptop -- */
+@media (max-width:1200px) {
+    .first-header{
+        padding: 20px 40px;
+    }
+    .hero-section{
+        height: 100vh;
+    }
+    .signin-button{
+        padding: 10px 25px;
+        margin-right:10px ;
+    }
+    .main-content h1{
+ font-size: 45px; 
+    margin-top: -60px;
+}
+.section-card-top{
+    margin-top: 60px;
+    gap: 20px;
+}
+.arrow-btnleft{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.arrow-btnright{
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+.cathead h2{
+    font-size: 34px;
+}
+.discover-btn{
+    padding: 12px 15px;
+}
+.winner-section h2{
+    font-size: 34px;
+}
+.card-details h2{
+    font-size: 14px;
+}
+.pricing-section h2{
+    font-size: 34px;
+}
+footer{
+    padding: 30px;
+}
+}
+/*-- Desktop and Tablet 992px --*/
+@media(max-width:992px){
+      .first-header{
+        padding: 15px 35px;
+    }
+    .hero-section{
+        height: 100vh;
+    }
+    .signin-button{
+        padding: 10px 20px;
+        margin-right:10px ;
+    }
+    nav{
+        padding: 15px 20px;
+    }
+    .main-content h1{
+        font-size: 32px;
+    }
+    .main-content pre{
+        font-size: 10px;
+    }
+    .line{
+    width: 70%;
+    margin: 30px auto;
+    border: 0.5px solid rgba(255,255,255,0.3);
+}
+.video-btn{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.exp-btn{
+    padding: 10px 20px ;
+    font-size: 12px;
+}
+.card{
+    width: 230px;
+    height: 230px;
+}
+.cathead h2{
+    font-size: 30px;
+}
+.cathead h4{
+    font-size:16px ;
+}
+.discover-btn{
+    padding: 10px 12px;
+    font-size: 12px;
+}
+.Categories-card button{
+    padding: 8px;
+   font-weight: 500;
+   font-size: 12px;
+    border: 1px solid #1eaee7;
+}
+.winner-section{
+    padding: 60px;
+}
+.winner-card{
+    width: 350px;
+}
+.winner-card img{
+    width: 100%;
+    height: 200px;
+    
+    object-fit: cover;
+}
+.winner-section h2{
+font-size: 30px;
+}
+.winner-section h4{
+font-size: 16px;
+}
+.card-details h2{
+    font-size: 14px;
+}
+.browse-btn{
+    font-size: 16px;
+    border: 1.5px solid #0d96d6;
+    padding: 16px 35px;
+}
+.pricing-section{
+    padding: 60px;
+}
+.pricing-section h4{
+    font-size: 16px;
+}
+.pricing-section h2{
+    font-size: 30px;
+}
+.pricing-cards{
+    gap: 25px;
+}
+.pricing-card{
+    width: 250px;
+    padding: 30px 20px;
+}
+.pricing-card h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.pricing-card h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+.pricing-card p{
+    font-size: 10px;
+}
+.pricing-card hr{
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+}
+.pricing-card button{
+    padding: 10px 25px ;
+}
+footer{
+    padding: 22px;
+}
+}
+/*--Tablet and Big Mobile --*/
+@media (max-width:768px){
+    .first-header{
+    flex-direction:column;
+    gap:20px;
+    padding:20px;
+}
+
+nav{
+    width:100%;
+}
+
+nav ul{
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+
+.hero-section{
+    height: 100vh;
+}
+
+.main-content h1{
+    font-size: 24px;
+    width: 90%;
+    margin-top: 0;
+    
+}
+
+.main-content pre{
+    font-size: 9px;
+    width: 90%;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.line{
+    width: 90%;
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.video-btn{
+    padding: 10px 20px;
+    font-size: 12px;
+}
+.exp-btn{
+    padding: 10px 20px ;
+    font-size: 12px;
+}
+.section-card-top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.arrow-btnleft{
+    display: none;
+}
+.arrow-btnright{
+    display: none;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.content-card p{
+          font-size: 8px;
+          gap: 5px;
+          margin-top: 15px;
+          
+}
+.content-card h2{
+          font-size: 12px;
+}
+.Categories-header{
+    display: flex;
+    flex-direction: column;
+}
+.cathead h2{
+    font-size: 24px;
+}
+.cathead h4{
+    font-size: 12px;
+}
+.discover-btn{
+    padding: 12px 18px;
+    margin-top: 20px;
+}
+.Categories-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.Categories-card{
+    width:40%;
+}
+.winner-section h4{
+    color: #1eaee7;
+    margin-bottom: 15px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.winner-section h2{
+    font-size: 24px;
+   
+    font-weight: normal;
+}
+.card-details h2{
+    font-size: 12px;
+}
+.card-details p{
+    font-size: 10px;
+}
+.winner-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.winner-card{
+    width: 220px;
+}
+.browse-btn{
+    padding: 14px 30px;
+    border: 1.5px solid #0d96d6;
+}
+
+.pricing-section h4{
+    font-size: 14px;
+}
+.pricing-section h2{
+    font-size: 24px;
+}
+.pricing-cards{
+    gap: 25px;
+     display: flex;
+    flex-direction: column;
+     justify-content: center;
+    align-items: center;
+}
+.pricing-card{
+    width: 250px;
+    padding: 20px 15px;
+    
+}
+.pricing-card h2{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.pricing-card h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px;
+}
+.pricing-card p{
+    font-size: 10px;
+    margin: 6px;
+}
+.pricing-card hr{
+    margin-bottom: 10px;
+    border: 0.5px solid #eee;
+}
+.pricing-card button{
+    padding: 10px 20px ;
+    font-size: 12px;
+    border: 1.5px solid #1eaee7;
+}
+footer{
+    padding: 18px;
+}
 }
