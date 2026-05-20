@@ -8,12 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-     padding: 20px 80px;
+    padding:0px 30px;
+    
+     
 }
 nav{
     background-color: #1eaee7;
     padding: 20px 50px;
-    border-radius: 5px;
+   
 }
 nav ul{
     display: flex;
@@ -83,7 +85,8 @@ nav ul{
       color: white;
       background-color: transparent;
       border: none;
-      font-size: 15px;
+      font-size: 14px;
+      font-weight: bold;
 }
 .exp-btn{
  padding: 15px 30px;
@@ -92,7 +95,7 @@ nav ul{
     border: 1.4px solid #ffffff;
       color: white;
        background-color: transparent;
-       font-size: 15px;
+       font-size: 18px;
 }
 .span-section-card{
     color: #1eaee7;
@@ -176,8 +179,8 @@ justify-content: center;
 }
 .cathead h2{
 margin-top: 10px;
-font-size: 36px;
-font-weight: normal;
+font-size: 32px;
+font-weight:bold;
     
 }
 .discover-btn{
@@ -261,12 +264,13 @@ button:hover{
     margin-top: -30px;
 }
 .card-content p{
- font-size: 8px;
+ font-size: 10px;
+ color: rgb(164, 162, 162);
 }
 .card-content h5{
  line-height: 12px;
     margin-bottom: 8px;
-    font-size: 10px;
+    font-size: 14px;
 }
 .winner-section{
     padding: 80px;
@@ -284,9 +288,9 @@ button:hover{
 }
 
 .winner-section h2{
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 60px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .winner-section h1 span{
@@ -328,6 +332,7 @@ button:hover{
 .card-details h2{
     margin-bottom: 10px;
     font-size: 16px;
+    font-weight:500;
 }
 
 .card-details p{
@@ -336,7 +341,7 @@ button:hover{
 }
 
 .browse-btn{
-    padding: 18px 40px;
+    padding: 18px 25px;
 
     border: 2px solid #0d96d6;
     border-radius: 12px;
@@ -344,7 +349,7 @@ button:hover{
     background-color: transparent;
     color: #1eaee7;
 
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
 }
 .winner-section h2{
@@ -362,9 +367,9 @@ button:hover{
 }
 
 .pricing-section h2{
-    font-size: 36px;
+    font-size: 32px;
     margin-bottom: 60px;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .pricing-section h2 span{
@@ -419,13 +424,14 @@ button:hover{
 }
 
 .pricing-card button{
-    padding: 15px 30px;
+    padding: 10px 20px;
 
     border: 2px solid #1eaee7;
     border-radius: 10px;
 
     background-color: transparent;
     color: #1eaee7;
+       font-size: 12;
 
     font-weight: bold;
 }
@@ -447,7 +453,7 @@ footer span{
 /* --1200px Medium Laptop -- */
 @media (max-width:1200px) {
     .first-header{
-        padding: 20px 40px;
+        padding: 0px 40px;
     }
     .hero-section{
         height: 100vh;
@@ -466,12 +472,12 @@ footer span{
 }
 .arrow-btnleft{
     margin-left: 10px;
-    width: 40px;
+    width: 50px;
     height: 40px;
 }
 .arrow-btnright{
     margin-right: 10px;
-    width: 40px;
+    width: 50px;
     height: 40px;
 }
 .cathead h2{
@@ -496,7 +502,7 @@ footer{
 /*-- Desktop and Tablet 992px --*/
 @media(max-width:992px){
       .first-header{
-        padding: 15px 35px;
+        padding: 0px 35px;
     }
     .hero-section{
         height: 100vh;
@@ -616,7 +622,7 @@ footer{
     .first-header{
     flex-direction:column;
     gap:20px;
-    padding:20px;
+    padding: 0px 20px;
 }
 
 nav{
