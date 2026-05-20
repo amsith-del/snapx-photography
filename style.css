@@ -505,7 +505,7 @@ footer{
         padding: 0px 35px;
     }
     .hero-section{
-        height: 100vh;
+        height: 90vh;
     }
     .signin-button{
         padding: 10px 20px;
@@ -617,6 +617,23 @@ footer{
     padding: 22px;
 }
 }
+/*--Tablet ipad serious--*/
+@media (max-width:850px){
+ .hero-section{
+        height: 60vh;
+    }
+
+.Categories-cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.Categories-card{
+    width:40%;
+}
+}
 /*--Tablet and Big Mobile --*/
 @media (max-width:768px){
     .first-header{
@@ -637,7 +654,8 @@ nav ul{
 
 
 .hero-section{
-    height: 100vh;
+    height: 80vh;
+    margin-top: 5px;
 }
 
 .main-content h1{
@@ -797,6 +815,7 @@ footer{
     padding: 18px;
 }
 }
+
 /*--Small Mobile device --*/
 @media(max-width:480px){
     nav ul{
@@ -804,6 +823,7 @@ footer{
 }
 .hero-section{
         height: 100vh;
+        margin-top: 10px;
     }
 .main-content h1{
     font-size: 22px;
@@ -838,9 +858,9 @@ footer{
     gap:20px;
     align-items: center;
 }
-.Categories-card{
+/* .Categories-card{
     width:80%;
-}
+} */
 .winner-section h2{
     font-size: 20px;
    
@@ -849,6 +869,16 @@ footer{
 .winner-section h4{
     
     font-size: 10px;
+}
+.Categories-card{
+    width: 250px;
+    padding: 20px;
+  border: 1px solid #ddd;
+   border-radius: 20px;
+}
+.Categories-section{
+    align-items: center;
+    justify-content: center;
 }
 .card-details h2{
     font-size: 12px;
